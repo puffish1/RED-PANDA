@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+
+@font-face {
+	font-family: "Days";
+	src: url("./fonts/days/days.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.header_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #391F11;
+    gap: 10px;
+}
+
+.logo_name{
+    width: 10%;
+}
+
+.main_buttns nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    transition: all 0.1s ease-in-out;
+}
+
+.main_buttns nav a:hover{
+    color: #FFD3BB;
+}
+
+.main_buttns nav{
+    display: flex;
+    gap: 30px;
+}
+
+main{
+    overflow: hidden;
+}
+
+.main_bunners{
+    background-image: url(./image/main_back.png);
+    height: 616px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 122px;
+
+}
+
+.rest{
+    background-image: url(./image/lapsha.png);
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.main_bunners h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+    margin-top: -5px;
+}
+
+.main_bunners button{  
+    background-color: #7F2D2D;
+    border: none;
+    height: 41px;
+    width: 196px;
+    padding: 10px 46px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main_bunners button a{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFD3BB;
+    text-decoration: none;
+}
+
+.rest_bun{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 66px 0px 66px 0px;
+    align-items: center;
+justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imm{
+    width: 46%;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.imm1{
+    width: 46%;
+
+    display: flex;
+    justify-content: start  ;
+}
+
+
+
+.rest_text{
+    width: 46%;
+}
+
+.rest_text1{
+    width: 46%;
+}
+
+.rest_text1 div {
+    margin: 25px 0px 25px 37px;
+}
+
+.rest_text1 div span{
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 20px;
+
+}
+
+.rest_text div {
+    margin: 25px 0px 25px 37px;
+}
+
+.rest_text div span{
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 20px;
+
+}
+
+.lap1{
+    margin-left: -85px;
+}
+
+.red{
+    color: #AA2121;
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30px;
+}
+
+.end_bun{
+    background-image: url(./image/mai_bun.png);
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.end_bun span{
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.end_bun button{  
+    background-color: #7F2D2D;
+    border: none;
+    height: 41px;
+    width: 196px;
+    padding: 10px 46px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.end_bun button a{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFD3BB;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #391F11;
+    padding-bottom: 100px;
+    padding-left: 70px;
+}
+
+.foot_but{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.abt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    padding-top: 30px;
+}
+
+.cont{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 12px;
+    margin-left: 68px;
+}
+
+.numb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    gap: 3px;
+}
+
+.mail_navbut{
+    margin-right: 10%;
+}
+
+.navbut_foot{
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.navbut_foot nav{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navbut_foot nav a{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbut_foot nav a:hover{
+    color: #FFD3BB;
+}
+
+
+.mails h1{
+    margin: 0;
+    padding-top: 52px ;
+    color: white;
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 25px;
+}
+
+.mails input{
+    width: 90% ;
+    border-radius: 10px;
+    height: 33px;
+    padding: 7px 15px ;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.gl{
+    margin-bottom: 10px;
+}

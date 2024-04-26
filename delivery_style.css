@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+	font-family: "Days";
+	src: url("./fonts/days/days.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 900;
+}
+
+.header_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #391F11;
+    gap: 10px;
+    
+}
+
+.logo_name{
+    width: 10%;
+}
+
+.main_buttns nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    transition: all 0.1s ease-in-out;
+}
+
+.main_buttns nav a:hover{
+    color: #FFD3BB;
+}
+
+.main_buttns nav{
+    display: flex;
+    gap: 30px;
+}
+
+.nav_but nav a{
+    text-decoration: none;
+    color: black;
+    font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 25px;
+}
+
+main{
+    margin: 50px 95px;
+}
+
+main h1{
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 32px;
+    margin: 50px 0 32px 0;
+}
+
+.main_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.s{
+    color: black;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.d{
+    color: black;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;  
+}
+
+.del{
+    color: black;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    list-style:disc;
+}
+
+.logo_del{
+   display: flex;
+   flex-direction: column;
+   gap: 40px    ;
+   margin-top: 40px;
+   flex-wrap: wrap;
+}
+
+.logo_del div{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.loz{
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.f{
+    color: #7F2D2D;
+}
+
+footer{
+    background-color: #391F11;
+    padding-bottom: 100px;
+    padding-left: 70px;
+}
+
+.foot_but{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.abt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+    padding-top: 30px;
+}
+
+.cont{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+        font-family: "Fira Sans Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    font-size: 12px;
+    margin-left: 68px;
+}
+
+.numb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 7px;
+    gap: 3px;
+}
+
+.mail_navbut{
+    margin-right: 10%;
+}
+
+.navbut_foot{
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.navbut_foot nav{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.navbut_foot nav a{
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.mails h1{
+    margin: 0;
+    padding-top: 52px ;
+    color: white;
+    font-family: "Days";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 25px;
+}
+
+.mails input{
+    width: 90% ;
+    border-radius: 10px;
+    height: 33px;
+    padding: 7px 15px ;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.gl{
+    margin-bottom: 10px;
+}
+
+.navbut_foot nav a:hover{
+    color: #FFD3BB;
+}
